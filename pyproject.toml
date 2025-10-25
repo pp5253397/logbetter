@@ -4,20 +4,34 @@ build-backend = "hatchling.build"
 
 [project]
 name = "logbetter"
-version = "0.0.1"
+version = "0.0.3"
 authors = [
   { name = "Parth Patel", email = "pp5253397@gmail.com" },
 ]
 description = "Improved logging wrapper with colored output and timestamps."
 readme = "README.md"
 requires-python = ">=3.8"
+dependencies = [
+  "colorama>=0.4.6"
+]
 license = "MIT"
 license-files = ["LICEN[CS]E*"]
+keywords = ["logging", "console", "colors", "timestamps", "developer-tools"]
 classifiers = [
   "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "License :: OSI Approved :: MIT License",
   "Operating System :: OS Independent",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+  "Topic :: System :: Logging",
 ]
 
 [project.urls]
-Homepage = "https://github.com/yourusername/logbetter"
-Issues = "https://github.com/yourusername/logbetter/issues"
+Homepage = "https://github.com/pp5253397/logbetter"
+Issues = "https://github.com/pp5253397/logbetter/issues"
+Repository = "https://github.com/pp5253397/logbetter"
+Documentation = "https://github.com/pp5253397/logbetter#readme"
